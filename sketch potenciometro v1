@@ -1,0 +1,13 @@
+void setup() {
+  // Inicializamos la comunicación serie a 9.600 bits por segundo
+  Serial.begin(9600);
+}
+
+void loop() {
+  // Leemos la entrada del pin analógico 0
+  int valorLeido = analogRead(0);
+
+  // Enviamos al puerto serie el valor leído
+  Serial.println(valorLeido);
+  delay(1000);        // Esperamos un segundo entre lecturas para mejorar la estabilidad
+}
