@@ -9,6 +9,8 @@
   "author": "hdubon",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
+    "node-telegram-bot-api": "^0.30.0",
+    "npm": "^5.8.0",
+    "serialport": "^6.1.1"
   }
 }
