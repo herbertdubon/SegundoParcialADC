@@ -45,5 +45,5 @@ void loop()
   Serial.print("\tACT:\t");
   Serial.println(value);
 
-  delay (100);
+  delay (5000);
 }
