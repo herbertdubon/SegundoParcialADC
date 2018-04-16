@@ -9,7 +9,7 @@ var idChar = 211166639;
 
 var portName = process.argv[2];
 var SerialPort = require("serialport");
-var miSerial = new SerialPort('COM3', {
+var miSerial = new SerialPort('COM6', {
   baudRate: 9600,
   autoopen: true
 });
