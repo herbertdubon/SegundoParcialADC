@@ -5,14 +5,7 @@ const TelegramBot = require('node-telegram-bot-api');
 var serialport = require("serialport");
 const token = '588640837:AAEvr4iQtJXWf1PC7KDflNibX8l9e0YcV90'; //token de acceso del bot
 var idChar = 211166639;
-<<<<<<< HEAD
 var miSerial = new serialport("COM3", {
-=======
-
-var portName = process.argv[2];
-var SerialPort = require("serialport");
-var miSerial = new SerialPort('COM6', {
->>>>>>> 940858923d6a367598be63ab7a0afe43093d760f
   baudRate: 9600,
   autoOpen: true
 });
